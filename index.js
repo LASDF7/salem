@@ -278,7 +278,7 @@ async function check_github_api() {
 async function check_image_processing() {
   const start = Date.now();
   try {
-    const test_user_id = "773952016036790272";
+    const test_user_id = "1464287662407024779";
     const res = await fetch(`https://avatar-cyan.vercel.app/api/pfp/${test_user_id}/smallimage`, {
       timeout: 8000,
       method: "HEAD",
